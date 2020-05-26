@@ -1,0 +1,44 @@
+html{
+  
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fheightline.com%2Fwp-content%2Fuploads%2FVin-Diesel-1.jpg&f=1&nofb=1); 
+  background-size: cover;
+  opacity: 85%;
+
+
+}
+.Career{
+display: flex;
+background-color: antiquewhite;
+
+}
+.Career__message{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ border-style: groove;
+ border-color: blue;
+ 
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    font-style: initial;
+    font-size: 20pxpx;
+    font-family: inherit;
+    text-align: center;
+}
+.quote {
+text-align: left;
+justify-content: left ;
+align-items: left;
+}
+.video {
+    border-style: ridge;
+    display: flex;
+    float: left;
+    height: auto;
+    width: auto;
+    
+
+}
