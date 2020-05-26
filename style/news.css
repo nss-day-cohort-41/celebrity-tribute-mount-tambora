@@ -4,7 +4,7 @@ header {
 }
 
 .navigation {
-    display: flex;
+    display: flex;   
 }
 
 .navigation--item {
@@ -14,6 +14,7 @@ header {
 .wrapper {
     display: flex;
     flex-direction: column;
+    /* background-color: black; */
 }
 .news {
     display: flex;
@@ -55,3 +56,17 @@ header {
     margin: auto .2em;
 }
 
+
+.button {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: .1em .2em;
+    font-size: 110%;
+    color: black;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: darkslategray;
+    color: white;
+}
