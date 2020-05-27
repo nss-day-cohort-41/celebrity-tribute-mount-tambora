@@ -75,15 +75,22 @@ nav {
 .family__list {
     display: flex;
     flex-flow: row;
-    justify-content: flex-start;
-    border: 3px solid black;
+	flex-wrap: wrap;
+    border: 3px solid red;
     border-radius: 2px;
 	margin: .5em 0em;
 	width: 1000px;
 	height: auto;
     
 }
-
+.photo__info{
+	display: flex;
+	border: solid black 1px;
+	max-width: 200px;
+	max-height: 200px;
+	padding: 10px;
+	justify-content: space-around;
+}
 .photo__delora {
 	display: flex;
 	max-width: 200px;
