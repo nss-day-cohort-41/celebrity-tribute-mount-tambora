@@ -1,7 +1,7 @@
 .header__title {
-    text-align: center;
+text-align: center;
 }
-
+/* Nav and buttons for nav */
 nav {
     display: flex;
     justify-content: space-around; 
@@ -35,10 +35,63 @@ nav {
     position: relative;
     top: auto;
 }
-.photo__diesel {
+/* nav end  */
+
+/* Diesel photo and info */
+
+.bio__info h3 {
+	font-size: 25px;
+}
+.bio__info p {
+	margin-left: 20px;
+	font-size: 20px;
+}
+.bio__message {
+	display: flex;
+	flex-wrap: wrap;
+
 
 }
+.photo__diesel {
+	padding-top: 35px;
+	padding-left: 25px;
+	max-width: 300px;
+	max-height: 300px;
+}
 
+.bio__text {
+	display: flex;
+	flex-direction: column;
+	padding-left: 15px;
+}
+
+/* Diesel photo and info end */
+
+/* immediate family flex box */
+.family__header {
+	text-align: center;
+}
+
+.family__list {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    border: 3px solid black;
+    border-radius: 2px;
+	margin: .5em 0em;
+	width: 1000px;
+	height: auto;
+    
+}
+
+.photo__delora {
+	display: flex;
+	max-width: 200px;
+	max-height: 200px;
+}
+/* immediate family flex box end */
+
+/* footer social links and buttons */
 .social__links {
     display: flex;
     flex-direction: row; 
@@ -72,3 +125,4 @@ nav {
     position: relative;
     top: auto;
 }
+/* footer social links end */
