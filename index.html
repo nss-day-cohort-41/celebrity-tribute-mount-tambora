@@ -9,15 +9,15 @@
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="/style/style.css">
 </head>
-<body>
+<body class="bgBody">
     <header>
         <!-- Top Navigation Bar -->
-        <nav class="nav">
-            <div><a href="index.html">Home</a></div>
-            <div><a href="/pages/career.html">Career</a></div> 
-            <div><a href="/pages/bio.html">Bio</a></div>   
-            <div><a href="/pages/news-feed.html">News Feed</a></div>
-            <div><a href="/pages/extras.html">Extras</a></div>
+        <nav class="top-nav">
+            <div class="nav__buttons"><a href="index.html">Home</a></div>
+            <div class="nav__buttons"><a href="/pages/career.html">Career</a></div> 
+            <div class="nav__buttons"><a href="/pages/bio.html">Bio</a></div>   
+            <div class="nav__buttons"><a href="/pages/news-feed.html">News Feed</a></div>
+            <div class="nav__buttons"><a href="/pages/extras.html">Extras</a></div>
         </nav>
     </header>
 
@@ -25,82 +25,97 @@
         <!-- Portrait -->
         <section class="portrait">
             <h1 class="bangerStyle">Vin Diesel</h1>
-            <h3>(Mark Sinclair)</h3>
-            <img class="portrait-diesel" src="https://i.pinimg.com/originals/51/be/68/51be68254f3769a41193c7e2bc158391.jpg" alt="portrait of vin diesel">
+            <h3 class="parFont">(Mark Sinclair)</h3>
+            <img class="portraitImg" src="https://media.giphy.com/media/TgQCVpkQSZ81G/giphy.gif" alt="portrait of vin diesel">
         </section>
 
         <!-- Known Collaborators -->
         <aside class="collab">
-            <h3>Known Collaborators</h3>
-            <div class="collab-flip">
-                <div class="collab-flipInner">
-                    <div class="collab-flipFront">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg" alt="chris pratt" style="width:150px;height:200px;">
-                    </div>
-                    <div class="collab-flipBack">
-                        <h3>Chris Pratt</h3>
-                        <p>(Peter Quill)</p>
-                        <p>Guardians of the Galaxy</p>
-                        <button><a href="https://www.imdb.com/name/nm0695435/?ref_=tt_ov_st_sm" target="_blank">Profile</a></button>
-                    </div>
-                </div>
-            </div>
-            <div class="collab-flip">
-                <div class="collab-flipInner">
-                    <div class="collab-flipFront">
-                        <img src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/a/a7/Bradley_Cooper.jpg/revision/latest?cb=20190423083909" alt="bradley cooper" style="width:150px;height:200px;">
-                    </div>
-                    <div class="collab-flipBack">
-                        <h3>Bradley Cooper</h3>
-                        <p>(Rocket Raccoon)</p>
-                        <p>Guardians of the Galaxy</p>
-                        <button><a href="https://www.imdb.com/name/nm0177896/?ref_=tt_ov_st_sm" target="_blank">Profile</a></button>
+            <h3 class="bangerStyle">Known Collaborators</h3>
+            <div class="collab-cards">
+                <div class="collab-flip">
+                    <div class="collab-flipInner">
+                        <div class="collab-flipFront">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Chris_Pratt_2018.jpg" alt="chris pratt" style="width:150px;height:200px;">
+                        </div>
+                        <div class="collab-flipBack parFont">
+                            <h3>Chris Pratt</h3>
+                            <p>(Peter Quill)</p>
+                            <p>Guardians of the Galaxy</p>
+                            <button><a href="https://www.imdb.com/name/nm0695435/?ref_=tt_ov_st_sm" target="_blank">Profile</a></button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="collab-flip">
-                <div class="collab-flipInner">
-                    <div class="collab-flipFront">
-                        <img src="https://m.media-amazon.com/images/M/MV5BMTkyNDQ3NzAxM15BMl5BanBnXkFtZTgwODIwMTQ0NTE@._V1_.jpg" alt="dwayne johnson" style="width:150px;height:200px;">
-                    </div>
-                    <div class="collab-flipBack">
-                        <h3>Dwayne Johnson</h3>
-                        <p>(Hobbs)</p>
-                        <p>Fast & Furious 7</p>
-                        <button><a href="https://www.imdb.com/name/nm0425005/?ref_=tt_ov_st_sm" target="_blank">Profile</a></button>
+                <div class="collab-flip">
+                    <div class="collab-flipInner">
+                        <div class="collab-flipFront">
+                            <img src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/a/a7/Bradley_Cooper.jpg/revision/latest?cb=20190423083909" alt="bradley cooper" style="width:150px;height:200px;">
+                        </div>
+                        <div class="collab-flipBack parFont">
+                            <h3>Bradley Cooper</h3>
+                            <p>(Rocket Raccoon)</p>
+                            <p>Guardians of the Galaxy</p>
+                            <button><a href="https://www.imdb.com/name/nm0177896/?ref_=tt_ov_st_sm" target="_blank">Profile</a></button>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="collab-flip">
-                <div class="collab-flipInner">
-                    <div class="collab-flipFront">
-                        <img src="https://i.pinimg.com/originals/d3/90/69/d390691ec3885664f179b9dd156589fd.jpg" alt="paul walker" style="width:150px;height:200px;">
+                <div class="collab-flip">
+                    <div class="collab-flipInner">
+                        <div class="collab-flipFront">
+                            <img src="https://m.media-amazon.com/images/M/MV5BMTkyNDQ3NzAxM15BMl5BanBnXkFtZTgwODIwMTQ0NTE@._V1_.jpg" alt="dwayne johnson" style="width:150px;height:200px;">
+                        </div>
+                        <div class="collab-flipBack parFont">
+                            <h3>Dwayne Johnson</h3>
+                            <p>(Hobbs)</p>
+                            <p>Fast & Furious 7</p>
+                            <button><a href="https://www.imdb.com/name/nm0425005/?ref_=tt_ov_st_sm" target="_blank">Profile</a></button>
+                        </div>
                     </div>
-                    <div class="collab-flipBack">
-                        <h3>Paul Walker</h3>
-                        <p>(Brian O'Conner)</p>
-                        <p>Fast & Furious Series</p>
-                        <button><a href="https://www.imdb.com/name/nm0908094/?ref_=tt_ov_st_sm" target="_blank">Profile</a></button>
+                </div>
+                <div class="collab-flip">
+                    <div class="collab-flipInner">
+                        <div class="collab-flipFront">
+                            <img src="https://i.pinimg.com/originals/d3/90/69/d390691ec3885664f179b9dd156589fd.jpg" alt="paul walker" style="width:150px;height:200px;">
+                        </div>
+                        <div class="collab-flipBack parFont">
+                            <h3>Paul Walker</h3>
+                            <p>(Brian O'Conner)</p>
+                            <p>Fast & Furious Series</p>
+                            <button><a href="https://www.imdb.com/name/nm0908094/?ref_=tt_ov_st_sm" target="_blank">Profile</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
         </aside>
 
-        <!-- Known Aliases -->
-        <aside class="alias"> 
-            <h3>Known Aliases</h3>
-            <ul>
-                <li>Groot</li>
-                <li>Dominic Toretto</li>
-                <li>Xander Cage</li>
-            </ul>
-        </aside>
+        <section class="bottom-main">
+            <!-- Known Aliases -->
+            <aside class="alias"> 
+                <h3 class="bangerStyle">Known Aliases</h3>
+                <div class="alias-container">
+                    <div class="alias-groot">
+                        <img class="aliasImg" src="https://i.pinimg.com/736x/43/5a/ff/435aff3f0456a5f68d6d04c0018eb81d.jpg" alt="groot">
+                        <h3>Groot</h3>
+                    </div>
+                    <div class="alias-toretto">
+                        <img class="aliasImg" src="https://img2.goodfon.com/wallpaper/nbig/1/b3/forsazh-6-the-fast-and-the-4361.jpg" alt="toretto">
+                        <h3>Dominic Toretto</h3>
+                    </div>
+                    <div class="alias-cage">
+                        <img class="aliasImg" src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2016%2F11%2Fxxx-return-of-xander-cage-trailer-vin-diesel-0.jpg?fit=max&cbr=1&q=90&w=750&h=500" alt="cage">
+                        <h3>Xander Cage</h3>
+                    </div>
+                </div>
+            </aside>
 
-        <!-- Residence -->
-        <aside class="residence">
-            <h3>Country of Residence</h3>
-            <p>USA</p>
-        </aside> 
+            <!-- Residence -->
+            <aside class="residence">
+                <h3 class="bangerStyle">Country of Residence</h3>
+                <div class="residence-flex">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png" alt="usa" style="width:50%;height:50%">
+                <div>
+            </aside> 
+        </section>
     </main>
 
     <footer>
