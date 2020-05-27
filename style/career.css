@@ -78,3 +78,27 @@ align-items: left;
 }
 /* End Projects Tab: Side Note: (Maybe make animated border on movies  */
 
+
+/* Strong Boi, this is a "precreated template for lists via http://old.marcofolio.net/css/8_different_ways_to_beautifully_style_your_lists.html*/
+/* LIST #2 */
+#list2 { 
+  width:320px;
+ }
+#list2 ol {
+  font-style:italic;
+  font-size:24px;
+  color: black; 
+ }
+#list2 ol li p {
+   padding:8px; 
+   font-style:normal; 
+   font-family:Arial; 
+   font-size:13px; 
+   color: black;
+   border-left: 
+   1px solid darkgrey;
+   }
+#list2 ol li p em { 
+  display:block; 
+}
+
