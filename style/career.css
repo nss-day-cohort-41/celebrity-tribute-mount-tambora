@@ -106,11 +106,13 @@ text-shadow:0px 1px 0px #ffffff;
   flex-flow: column;
   flex: 3;
   float: center;
-  width: 41.33%;
-  padding: 2em .5em;
-  padding-bottom: 7.5em ;
+  width: 40%;
+  padding-left: .2em;
+  padding-right: .2em;
+  padding-bottom: 2em;
   margin: 1em;
   justify-content: center;
+  text-align: center;
   border-radius: 5px;
   border-style: groove;
   border: 1px solid black;
@@ -125,8 +127,9 @@ text-shadow:0px 1px 0px #ffffff;
   float: left;
   width: 21.15%;
   margin: 1em;
-  padding-right:0em;
-  padding-bottom: 2.8em;
+  padding-right:1em;
+  padding-left: .2em;
+  padding-bottom: 3.9em;
   border-style: groove;
   border: 1px solid black;
   background-color: whitesmoke;
@@ -135,11 +138,13 @@ text-shadow:0px 1px 0px #ffffff;
 .Career__message3{
   display: inline-flex;
   flex-flow: column;
-  flex: 1;
+  flex: 3;
   float: right;
-  width: 30.3%;
+  width: 28.3%;
   margin: 1em;
   padding-bottom: 1em;
+  padding-left: .2em;
+  padding-right:.2em; 
   border-radius: 5px;
   border-style: groove;
   border: 1px solid black;
@@ -200,25 +205,21 @@ li{
   justify-content: center;
   line-height: .5em;
 }
-li> p {
-  line-height: 2em;
-}
+
 /*End of general HTML elements section  */
 
 
-
-
-
-
-
-/* Start of Quotes Tab */
-.quote {
-font-family: Arial, Helvetica, sans-serif;
-list-style: none;
+/*Class for the Quotes Tab  */
+ .centerboi {
+  line-height: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  justify-content: center;
+  float: center;
+  width: auto;
+  height: auto;
 }
-/*End of Quotes Tab  */
-
-
+/* End of QUOTES */
 
 
 
@@ -226,8 +227,8 @@ list-style: none;
 /* Start of BMOC tab */
 .video {
     float: center;
-    height: 150px;
-    width: 400px;
+    height: auto;
+    width: auto;
 }
 /* End of BMOC tab*/
 
@@ -241,18 +242,13 @@ list-style: none;
 .map {
   list-style: none;
   opacity: 100%;
+  width: auto;
+  height: auto;
   border-radius: 50px ;
   border-color:black;
   list-style: none;
 }
 /* End of Location tab*/
-
-
-
-
-
-
-
 
 
 
@@ -331,5 +327,76 @@ list-style: none;
   
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+  /* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  /* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+  /* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+  /* Styles */
 }
 
