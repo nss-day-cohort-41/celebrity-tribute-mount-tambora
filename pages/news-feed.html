@@ -4,95 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fresh Diesel</title>
+    <!-- Font style  -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <!-- Css stylsheet  -->
     <link rel="stylesheet" href="../style/news.css">
 </head>
+
+<!-- body with background image  -->
 <body class="bg">
     <header>
         <!-- Navigation bar -->
         <nav class="navigation">
-            <div class="navigation--item"><a href="../index.html">Home</a></div>
-            <div class="navigation--item"><a href="career.html">Career</a></div> 
-            <div class="navigation--item"><a href="bio.html">Bio</a></div>   
-            <div class="navigation--item"><a href="news-feed.html">News Feed</a></div>
-            <div class="navigation--item"><a href="extras.html">Extras</a></div>
+            <div class="nav__buttons"><a href="../index.html">Home</a></div>
+            <div class="nav__buttons"><a href="career.html">Career</a></div> 
+            <div class="nav__buttons"><a href="bio.html">Bio</a></div>   
+            <div class="nav__buttons"><a href="news-feed.html">News Feed</a></div>
+            <div class="nav__buttons"><a href="extras.html">Extras</a></div>
         </nav>
     </header>
     <div class="wrapper">
         <!-- page body  -->
         <div class="banner">
-            <h1>Where in the world is Vin Diesel?</h1>            
+            <h1 class="bangerStyle">Where in the world is Vin Diesel?</h1>            
         </div>
         
         <div class="news">
             <main class="news__main">
                 <section class="news__chunk">
                     <!-- main section  -->
-                    <h2 class="news--title">What's new in the Dieselverse?</h2>
-                    <div class="news__chunk--item"><a href="https://www.forbes.com/sites/travisbean/2020/05/22/fast-furious-marvel-vin-diesel-box-office/#b45f6191f478">Box Office: The ‘Fast & Furious’ Franchise Is Just As Profitable As Marvel’s Cinematic Universe</a></div>
+                    <h2 class="bangerStyle">What's new in the Dieselverse?</h2>
+                    <div class="news__chunk--item">
+                        <!-- <img class="news--image" src="https://specials-images.forbesimg.com/imageserve/1192563394/960x0.jpg?fit=scale" alt="smiling vince"> -->
+                        <a href="https://www.forbes.com/sites/travisbean/2020/05/22/fast-furious-marvel-vin-diesel-box-office/#b45f6191f478">Box Office: The ‘Fast & Furious’ Franchise Is Just As Profitable As Marvel’s Cinematic Universe</a>
+                    </div>
                     <div class="news__chunk--item"><a href="https://www.cinemablend.com/news/2496472/vin-diesel-grateful-for-time-filming-fast-and-furious-movies-while-f9-is-on-hold" target="_blank">Vin Diesel Grateful For Time Filming Fast And Furious Movies While F9 Is On Hold</a></div>
                     <div class="news__chunk--item"><a href="https://www.cheatsheet.com/entertainment/vin-diesels-car-collection-isnt-just-muscle-cars.html/" target="_blank">Vin Diesel's Car Collection Isn't Just Muscle Cars</a></div>
                     <div class="news__chunk--item"><a href="https://www.cheatsheet.com/entertainment/fast-and-the-furious-vin-diesel.html/" target="_blank">‘The Fast and the Furious’: Vin Diesel Net Worth and How He Became Famous</a></div>
                     <div class="news__chunk--item"><a href="https://www.forbes.com/sites/travisbean/2020/05/23/the-fast--furious-films-ranked-from-worst-to-best/#2305e4a17d2f" target="_blank">The Fast & Furious Films Ranked From Worst To Best</a></div>
-                    <div class="button"><a href="https://duckduckgo.com/?q=vin+diesel&iar=news&ia=news" target=_>More News!</a></div>
+                    <a href="https://duckduckgo.com/?q=vin+diesel&iar=news&ia=news" target=_><div class="nav__buttons">More News!</div></a>
                 </section>        
                 <section class="news__chunk">
-                    <h2 class="news--title">Social Media Feeds</h2>
-                    <!-- Vin Diesel RSS feeds  -->
+                    <h2 class="bangerStyle">Social Media Feeds</h2>
+                    <!-- Vin Diesel RSS feed (combination of Facebook, Twitter, and Instagram) -->
                     <p>"Stay diesel, Ponyboy. Stay diesel." ~ S. E. Hinton </p>
-                    <div class="news__chunk--item">
+                    <div class="">
                         <rssapp-wall id="_iVt709hJoK2GHhuW"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
                     </div>
                 </section>
                 
             </main>
             <aside class="news__aside">
-                <h3 class="news--title">Upcoming Diesel Doses</h3>
-                <!-- tertieary  -->
+                <h3 class="bangerStyle">Upcoming Diesel Doses</h3>
+                <!-- tiles for upcoming film/video game  -->
                 <div class ="news__aside--item">
                     <img class="aside--img" src="../images/NFimages/f9.jpg" alt="Fast 9">
-                    <h5>F9</h5>
+                    <h4>F9</h4>
                     <p>(post-production)</p>
                     <p>Role: Dominic Toretto</p>
                     <p>2021</p>
                 </div>
                 <div class ="news__aside--item">
                     <img class="aside--img" src="../images/NFimages/ffcrossroads.jpg" alt="FF Crossroads">
-                    <h5>Fast and Furious Crossroads (video game)</h5>
+                    <h4>Fast and Furious: Crossroads (video game)</h4>
                     <p>(post-production)</p>
                     <p>Role: Dominic Toretto</p>
                     <p>2021</p>
                 </div>
                 <div class ="news__aside--item">
                     <img class="aside--img" src="../images/NFimages/avatar2.jpg" alt="Avatar 2">
-                    <h5>Avatar 2</h5>
+                    <h4>Avatar 2</h4>
                     <p>(filming)</p>
                     <p>Role: unspecified</p>
                     <p>2021</p>
                 </div>
                 <div class ="news__aside--item">
                     <img class="aside--img" src="../images/NFimages/gogV3.png" alt="guardians 3">
-                    <h5>Guardian of the Galaxy Vol. 3</h5>
+                    <h4>Guardian of the Galaxy Vol. 3</h4>
                     <p>(pre-production)</p>
                     <p>Role: Groot (voice)</p>
                     <p>2021</p>
                 </div>
                 <div class ="news__aside--item">
                     <img class="aside--img" src="../images/NFimages/f10.jpg" alt="Fast 10">
-                    <h5>Fast & Furious 10</h5>
+                    <h4>Fast & Furious 10</h4>
                     <p>(announced)</p>
                     <p>Role: Dominic Toretto</p>
                     <p>2022</p>
                 </div>
                 <div class ="news__aside--item">
                     <img class="aside--img" src="../images/NFimages/loveAndThunder.jpg" alt="love and thunder">
-                    <h5>Thor: Love & Thunder</h5>
+                    <h4>Thor: Love & Thunder</h4>
                     <p>(pre-production)</p>
                     <p>Role: Groot (voice)</p>
                     <p>2022</p>
                 </div>
                 <div class ="news__aside--item">
                     <img class="aside--img" src="../images/NFimages/furya.jpg" alt="Furya">
-                    <h5>Riddick 4: Furya</h5>
+                    <h4>Riddick 4: Furya</h4>
                     <p>(announced)</p>
                     <p>Role: Riddick</p>
                 </div>
@@ -104,9 +112,9 @@
     <footer>
         <div>
             <section class="navigation">
-                <div class="navigation--item"><a href="https://www.facebook.com/VinDiesel" >Facebook</a></div>
-                <div class="navigation--item"><a href="https://www.instagram.com/vindiesel/?hl=en">Instagram</a></div>
-                <div class="navigation--item"><a href="https://twitter.com/vindiesel?lang=en">Twitter</a></div>
+                <div class="navigation--item social__buttons social__links"><a href="https://www.facebook.com/VinDiesel" >Facebook</a></div>
+                <div class="navigation--item social__buttons social__links"><a href="https://www.instagram.com/vindiesel/?hl=en">Instagram</a></div>
+                <div class="navigation--item social__buttons social__links"><a href="https://twitter.com/vindiesel?lang=en">Twitter</a></div>
             </section>
         </div>
     </footer>
