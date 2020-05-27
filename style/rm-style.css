@@ -1,5 +1,9 @@
+
+
 .header__title {
 text-align: center;
+font-family: 'Bangers', cursive, Arial, Helvetica, sans-serif;
+letter-spacing: 1px;
 }
 /* Nav and buttons for nav */
 nav {
@@ -41,10 +45,14 @@ nav {
 
 .bio__info h3 {
 	font-size: 25px;
+	font-family: 'Bangers', cursive, Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 }
 .bio__info p {
 	margin-left: 20px;
 	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+
 }
 .bio__message {
 	display: flex;
@@ -71,6 +79,8 @@ nav {
 .family__header {
 	margin-left: 20px;
 	font-size: 25px;
+	font-family: 'Bangers', cursive, Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 }
 
 .family__list {
@@ -92,6 +102,7 @@ nav {
 	max-height: auto;
 	font-size: 20px;
 	padding-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .photo__image {
 	padding: 5px;
