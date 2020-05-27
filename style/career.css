@@ -1,54 +1,258 @@
 html{
   
-  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fheightline.com%2Fwp-content%2Fuploads%2FVin-Diesel-1.jpg&f=1&nofb=1); 
-  background-size: cover;
-  opacity: 85%;
-
-
+  background: url('../images/NFimages/Vin-Diesel-1024x768.jpg') repeat;
+  background-size: contain;
+  opacity: 100%;
 }
-.Career{
-display: flex;
-background-color: antiquewhite;
 
+
+
+/* Nav Bar Begins*/
+nav {
+  display: flex;
+  justify-content: space-around; 
+  justify-content: space-between;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
+.nav__buttons {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+  background-color:#f9f9f9;
+  border-radius:6px;
+  border:1px solid #dcdcdc;
+  display:inline-block;
+  cursor:pointer;
+  color:#666666;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #ffffff;
+}
+.nav__buttons:hover {
+  background: center;
+  background-color: #e9e8e8;
+}
+.nav__buttons:active {
+  position: relative;
+  top: auto;
+}
+/* NAV BAR ENDS */
+.social__links {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  margin: auto;
+  padding: 15px;
+}
+/* Footer SOCIAL BAR BEGINS */
+.social__buttons {
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+background-color:#f9f9f9;
+border-radius:6px;
+border:1px solid #dcdcdc;
+display:inline-block;
+cursor:pointer;
+color:#666666;
+font-family:Arial;
+font-size:15px;
+font-weight:bold;
+padding:6px 24px;
+text-decoration:none;
+text-shadow:0px 1px 0px #ffffff;
+}
+
+.social__buttons:hover {
+  background: center;
+  background-color: #e9e8e8;
+}
+
+.social__buttons:active {
+  position: relative;
+  top: auto;
+}
+/* SOCIAL FOOT ENDS */
+
+
+
+
+
+
+
+
+/*Start of body containers Targeting */
+
 .Career__message{
- display: flex;
- flex-direction: column;
- text-align: center;
- border-style: groove;
- border-color: blue;
- 
+  display: flex;
+  flex-flow: column;
+  flex: 3;
+  
+  margin: 1em;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  border-style: groove;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  opacity: 75%;
+}
+.Career__message1{
+  display: inline-flex;
+  flex-flow: column;
+  flex: 3;
+  float: center;
+  width: 41.33%;
+  padding: 2em .5em;
+  padding-bottom: 7.5em ;
+  margin: 1em;
+  justify-content: center;
+  border-radius: 5px;
+  border-style: groove;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  opacity: 80%;
 }
 
-h1 {
+.Career__message2{
+  display: inline-flex;
+  flex-flow: column;
+  flex: 3;
+  float: left;
+  width: 21.15%;
+  margin: 1em;
+  padding-right:0em;
+  padding-bottom: 2.8em;
+  border-style: groove;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  opacity: 90%;
+}
+.Career__message3{
+  display: inline-flex;
+  flex-flow: column;
+  flex: 1;
+  float: right;
+  width: 30.3%;
+  margin: 1em;
+  padding-bottom: 1em;
+  border-radius: 5px;
+  border-style: groove;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  opacity: 90%;
+}
+.Career__message4{
+  display: inline-flex;
+  flex-flow: column;
+  flex: 3;
+  margin: 1em;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 1em;
+  border-radius: 5px;
+  border-style: groove;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  opacity: 90%;
+}
+
+.Career__message5{
+  display: flex;
+  flex-flow: column;
+  flex: 3;
+  
+  margin: 1em;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  border-style: groove;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  opacity: 95%;
+}
+
+
+/* General Header Targeting */
+
+h1{
+  color: black;
+  font-family: 'Bangers', cursive, Arial, Helvetica, sans-serif;
+  font-size: 75px;
+  line-height: 1px; 
+  text-align: center;
+
+}
+
+h2 {
     color: black;
-    font-weight: bold;
-    font-style: initial;
-    font-size: 20pxpx;
-    font-family: inherit;
+    font-family: 'Bangers', cursive, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 1px; 
     text-align: center;
+}
+li{
+  text-align: center;
+  justify-content: center;
+  line-height: .5em;
+}
+li> p {
+  line-height: 2em;
 }
 /*End of general HTML elements section  */
 
 
+
+
+
+
+
 /* Start of Quotes Tab */
 .quote {
-text-align: left;
-justify-content: left ;
-align-items: left;
+font-family: Arial, Helvetica, sans-serif;
+list-style: none;
 }
 /*End of Quotes Tab  */
 
 
+
+
+
+
 /* Start of BMOC tab */
 .video {
-    border-style: ridge;
-    display: flex;
-    float: left;
-    height: auto;
-    width: auto;
+    float: center;
+    height: 150px;
+    width: 400px;
 }
 /* End of BMOC tab*/
+
+
+
+
+
+
+
+/* Start of Location tab */
+.map {
+  list-style: none;
+  opacity: 100%;
+  border-radius: 50px ;
+  border-color:black;
+  list-style: none;
+}
+/* End of Location tab*/
+
+
+
+
+
+
+
 
 
 
@@ -67,6 +271,7 @@ align-items: left;
 .column img {
   margin-top: 8px;
   vertical-align: middle;
+  opacity: 100%;
 }
 .styleForPics {
   opacity: 100%;
@@ -75,30 +280,56 @@ align-items: left;
   border-style: inherit;
   border-radius: 50px ;
   border-color:black;
+  opacity: 100%
 }
 /* End Projects Tab: Side Note: (Maybe make animated border on movies  */
 
 
+
+
+
+
+
+
+
+
+
 /* Strong Boi, this is a "precreated template for lists via http://old.marcofolio.net/css/8_different_ways_to_beautifully_style_your_lists.html*/
 /* LIST #2 */
+.centered {
+  align-items: center;
+  justify-items: center;
+  float: center;
+}
+
+
 #list2 { 
-  width:320px;
+  width:50%px;
+  align-items: center;
+  justify-items: center;
+  float: center;
+
  }
 #list2 ol {
   font-style:italic;
-  font-size:24px;
-  color: black; 
+  font-size:30px;
+  color: black;
  }
 #list2 ol li p {
    padding:8px; 
    font-style:normal; 
-   font-family:Arial; 
-   font-size:13px; 
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:15px; 
    color: black;
    border-left: 
    1px solid darkgrey;
+
    }
 #list2 ol li p em { 
-  display:block; 
+  display:inline-flex;
+  font-size: 20px; 
+  
+
+
 }
 
