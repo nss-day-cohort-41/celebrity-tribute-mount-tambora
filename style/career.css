@@ -28,17 +28,77 @@ h1 {
     font-family: inherit;
     text-align: center;
 }
+/*End of general HTML elements section  */
+
+
+/* Start of Quotes Tab */
 .quote {
 text-align: left;
 justify-content: left ;
 align-items: left;
 }
+/*End of Quotes Tab  */
+
+
+/* Start of BMOC tab */
 .video {
     border-style: ridge;
     display: flex;
     float: left;
     height: auto;
     width: auto;
-    
-
 }
+/* End of BMOC tab*/
+
+
+
+/*This is for the Projects Tab  */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+.styleForPics {
+  opacity: 100%;
+  width: 150px;
+  height: 200px;
+  border-style: inherit;
+  border-radius: 50px ;
+  border-color:black;
+}
+/* End Projects Tab: Side Note: (Maybe make animated border on movies  */
+
+
+/* Strong Boi, this is a "precreated template for lists via http://old.marcofolio.net/css/8_different_ways_to_beautifully_style_your_lists.html*/
+/* LIST #2 */
+#list2 { 
+  width:320px;
+ }
+#list2 ol {
+  font-style:italic;
+  font-size:24px;
+  color: black; 
+ }
+#list2 ol li p {
+   padding:8px; 
+   font-style:normal; 
+   font-family:Arial; 
+   font-size:13px; 
+   color: black;
+   border-left: 
+   1px solid darkgrey;
+   }
+#list2 ol li p em { 
+  display:block; 
+}
+
