@@ -69,32 +69,37 @@ nav {
 
 /* immediate family flex box */
 .family__header {
-	text-align: center;
+	margin-left: 20px;
+	font-size: 25px;
 }
 
 .family__list {
     display: flex;
     flex-flow: row;
 	flex-wrap: wrap;
-    border: 3px solid red;
+
     border-radius: 2px;
 	margin: .5em 0em;
-	width: 1000px;
+	width: 100%;
 	height: auto;
     
 }
 .photo__info{
 	display: flex;
-	border: solid black 1px;
-	max-width: 200px;
-	max-height: 200px;
-	padding: 10px;
-	justify-content: space-around;
+
+	margin: auto .2em;
+	max-width: 300px;
+	max-height: auto;
+	font-size: 20px;
+	padding-top: 5px;
 }
-.photo__delora {
+.photo__image {
+	padding: 5px;
 	display: flex;
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 70%;
+	max-height: auto;
+	padding-right: 10px;
+	
 }
 /* immediate family flex box end */
 
