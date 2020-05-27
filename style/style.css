@@ -3,6 +3,11 @@
   justify-content: space-evenly;
 }
 
+.low-bar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .portrait {
   max-width: 200px;
   max-height: 500px;
@@ -13,18 +18,50 @@
   max-height: 100%;
 }
 
-.collab-card {
+/* Card Flip Functions Begins */
+.collab {
   display: flex;
+  flex-direction: column;
 }
 
-.collab-card-item {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 200px;
+.collab-flip {
+  background-color: transparent;
+  width: 150px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
   margin: 1em;
-  text-align: center;
 }
 
-.collab-card-item img {
+.collab-flipInner {
+  position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
+
+.collab-flip:hover .collab-flipInner {
+  transform: rotateY(180deg);
+}
+
+.collab-flipFront, .collab-flipBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; 
+  backface-visibility: hidden;
+}
+
+.collab-flipFront {
+  background-color: #bbb;
+  color: black;
+}
+
+.collab-flipBack {
+  background-color: goldenrod;
+  color: white;
+  transform: rotateY(180deg);
+}
+/* Card Flip Functions Ends */
