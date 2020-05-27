@@ -4,13 +4,90 @@ header {
 }
 
 .navigation {
-    display: flex;   
+    display: flex;  
+    justify-content: space-around; 
 }
 
-.navigation--item {
+/* Font Style Begins */
+.bangerStyle {
+    font-family: 'Bangers', cursive, Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .parFont {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* Font Style Ends */
+
+
+/* NAVIGATION BUTTONS courtesy of Rob */
+
+.nav__buttons {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
     padding: .5em 1em;
+    margin: .5em 1em;
+}
+.nav__buttons:hover {
+    background: center;
+    background-color: #e9e8e8;
+}
+.nav__buttons:active {
+    position: relative;
+    top: auto;
 }
 
+/* END NAVIGATION BUTTONS  */
+
+/* SOCIAL MEDIA BUTTONS */
+
+.social__links {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin: auto;
+    padding: 15px;
+}
+.social__buttons {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.social__buttons:hover {
+    background: center;
+    background-color: #e9e8e8;
+}
+
+.social__buttons:active {
+    position: relative;
+    top: auto;
+}
+
+/* END SOCIAL MEDIA BUTTONS  */
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -23,6 +100,8 @@ header {
     height: 15em;
     width: auto;
 }
+
+/* background image  */
 
 .bg {
     background: url('../images/NFimages/carmenSanDiesel.png') no-repeat;
@@ -43,17 +122,30 @@ header {
     padding: 2em .5em;
     margin: 1em;
     border-radius: 5px;
-    border: 1px solid black;
     background-color: whitesmoke;
     opacity: .8;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px black solid;
 
 }
 
 .news__chunk--item {
-    padding: .5em;
     margin: 1em;
     border: 3px solid black;
+    border-radius: 2px;
+    background-color: tan;
+    padding: .5em 1em;
 }
+
+.news__chunk--item a {
+    color: black;
+}
+
+.news--image {
+    width: 100%;
+    height: auto;
+}
+
 
 .news__aside {
     display: flex;
@@ -62,8 +154,10 @@ header {
     border: 1px solid black;
     border-radius: 5px;
     padding: .5em;
-    background: white;
+    margin: 1em .5em;
+    background: whitesmoke;
     opacity: .8;
+    
 }
 
 .news__aside--item {
@@ -73,16 +167,21 @@ header {
     border: 3px solid black;
     border-radius: 2px;
     margin: .5em 0em;
-    
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .news__aside--item p {
     font-style: italic;
-    margin: auto .2em;
+    margin: auto .3em;
+}
+
+.news__aside--item h4 {
+    margin: .3em;
 }
 
 .aside--img {
-    width: 90%;
+    width: 100%;
     height: auto;
 }
 
