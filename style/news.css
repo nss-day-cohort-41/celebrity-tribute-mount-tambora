@@ -171,6 +171,10 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.news__aside--item a {
+    color: black;
+}
+
 .news__aside--item p {
     font-style: italic;
     margin: auto .3em;
