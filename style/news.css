@@ -5,7 +5,8 @@ header {
 
 .navigation {
     display: flex;  
-    justify-content: space-around; 
+    justify-content: space-between;
+    width: 100%;
 }
 
 /* Font Style Begins */
@@ -96,9 +97,8 @@ header {
 
 .banner {
     display: flex;
-    justify-content: flex-end;
-    height: 15em;
     width: auto;
+    height: 15em;
 }
 
 /* background image  */
@@ -107,6 +107,23 @@ header {
     background: url('../images/NFimages/carmenSanDiesel.png') no-repeat;
     background-attachment: fixed;    
 }
+
+/* title  */
+
+.headline {
+    display: flex;
+}
+
+.headline--item {
+    font-size: 100px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 4px;
+    opacity: .8;
+    margin: .5em;
+    padding: .2em;
+}
+
 .news {
     display: flex;
 }
@@ -190,17 +207,3 @@ header {
 }
 
 
-.button {
-    border: 1px solid black;
-    border-radius: 3px;
-    margin: .2em;
-    padding: .1em .2em;
-    font-size: 110%;
-    color: black;
-    background-color: rgb(204, 204, 204);
-}
-
-.button:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
