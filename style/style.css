@@ -12,11 +12,11 @@
 
 /* Background Styles Begins */
 .bgBody {
-  background-color: whitesmoke;
+  background-color: lightslategray;
 }
 
-.bgPort {
-
+.bgSection {
+  background-color: whitesmoke;
 }
 /* Background Styles End */
 
@@ -24,7 +24,7 @@
 /* Nav Bar Begins*/
 .top-nav {
   display: flex;
-  justify-content: space-around; 
+  /* justify-content: space-around;  */
   justify-content: space-between;
   margin: auto;
   padding-left: 15px;
@@ -64,8 +64,12 @@
 /* Bottom Nav Bar Begins */
 .low-bar {
   display: flex;
-  justify-content: space-evenly;
-  margin: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.margin {
+  margin: 0.5em;
 }
 /* Bottom Nav Bar Ends */
 
@@ -73,7 +77,6 @@
 /* Portrait Section Begins */
 .portrait {
   margin: auto;
-  /* border: 1px solid green; */
   text-align: center;
   padding: 30px;
 }
@@ -93,10 +96,10 @@
 
 /* Card Flip Functions Begins */
 .collab {
-  /* border: 1px solid blue; */
   margin: auto;
   text-align: center;
   padding: 30px;
+  overflow-x: hidden;
 }
 
 .collab > h3 {
@@ -147,8 +150,8 @@
 }
 
 .collab-flipBack {
-  background-color: goldenrod;
-  color: white;
+  background-color: burlywood;
+  color: black;
   transform: rotateY(180deg);
 }
 /* Card Flip Functions Ends */
@@ -156,7 +159,6 @@
 
 /* Alias Section Begins */
 .alias {
-  /* border: 1px solid red; */
   margin: auto;
   padding: 30px;
 }
@@ -207,7 +209,6 @@
 
 /* Residence Section Begins */
 .residence {
-  /* border: 1px solid black; */
   margin: auto;
   width: 50%;
   padding: 30px;
